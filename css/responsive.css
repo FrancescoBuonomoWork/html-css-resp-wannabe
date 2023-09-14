@@ -1,14 +1,27 @@
 /* Media Query */
 /* Tablet  */
+@media screen and (max-width:1920px) {
+    .container {
+        max-width: 100%;
+    }
+}
 
 @media screen and (max-width:767px) {
-     
-  .container{
-    /* max-width:767px; */
-    max-width: 100%;
-  }
+     .container {
+        max-width: 100%;
+     }
+  
   
 }
-@media screen and (max-width:479px) {
-
+@media (max-width:479px) {
+    .row{
+        flex-wrap: wrap;
+    }
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%;
+        margin-bottom: 30px;
+   }
 }
