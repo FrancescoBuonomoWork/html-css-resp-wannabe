@@ -16,6 +16,7 @@
 @media (max-width:479px) {
     .row{
         flex-wrap: wrap;
+        gap: 3rem;
     }
     .lessons .col,
     .steps .col,
@@ -23,5 +24,13 @@
     .why-us .col-right {
         width: 100%;
         margin-bottom: 30px;
+   }
+   .why-us{
+    background-color: black;
+    padding: 3rem 0;
+    margin-bottom: 0;
+   }
+   .steps{
+    margin-bottom: 0;
    }
 }
